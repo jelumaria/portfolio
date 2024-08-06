@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Concert+One&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Kalnia+Glaze:wght@100..700&family=Roboto+Slab:wght@100..900&family=Sofia&display=swap"
+        rel="stylesheet">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- animate style cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img src="./images/logome.png" alt="logo" class="logo">
+            <!-- list -->
+            <ul>
+                <li class="listitems"> <a class="links" href="#">HOME</a></li>
+                <li class="listitems"> <a class="links" href="#about">ABOUT</a></li>
+
+                <li class="listitems"> <a class="links" href="#skills">SKILLS</a></li>
+
+                <li class="listitems"> <a class="links" href="#contact">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- content -->
+            <div class="homecontents">
+                <h1 class="animate__animated animate__backInDown" id="username"> I'm Jaleena <span id="lname">Maria </span></h1>
+                <p id="userdetails">This is my official portfolio website to describe all <br> details and work
+                    experiences in web development</p>
+                <a id="download" href=""> DOWNLOAD CV</a>
+
+            </div>
+            <!-- images -->
+            <div class="homeimages">
+                <!-- shape -->
+                <img src="./images/bg.png" alt="shape" class="group1" id="shape">
+
+                <!-- girl -->
+                <img src="./images/anee.png" alt="girl" class="group1" id="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img class="img1" src="./images/img5.jpg" alt="about">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi cupiditate sequi a praesentium
+                        nihil cum repudiandae nobis quisquam, fuga, suscipit expedita nulla rerum sed, totam officiis
+                        quidem cumque quia rem?</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>jaleena Maria</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>988765542</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>jaleena@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My skills</span>
+            </div>
+
+            <div class="skillcontent">
+                <div data-aos="fade-right" class="progressbar">
+                    <!-- html -->
+                    <div class="bars">
+                        <h3 class="barHead">Html</h3>
+                        <span class="barpercent">91%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar htmlbar"></div>
+                    </div>
+                    <!-- css -->
+                    <div class="bars">
+                        <h3 class="barHead">Css</h3>
+                        <span class="barpercent">80%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"></div>
+                    </div>
+                    <!-- js -->
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barpercent">50%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"></div>
+                    </div>
+                    <!-- react -->
+                    <div class="bars">
+                        <h3 class="barHead">React</h3>
+                        <span class="barpercent">30%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillimg">
+                    <img class="img2" src="./images/img.png" alt="skills">
+                </div>
+            </div>
+
+
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contact</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                            class="fa-brands fa-linkedin brands"></i></a>
+
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                            class="fa-brands fa-facebook brands"></i></a>
+
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                            class="fa-brands fa-instagram brands"></i></a>
+
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                            class="fa-brands fa-github brands"></i></a>
+
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                            class="fa-brands fa-youtube brands"></i></a>
+
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaleena-maria-thomas/" target="_blank"> <i
+                            class="fa-brands fa-twitter brands"></i></a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- footer -->
+
+        <footer>
+
+            <p id="copyright"> &copy; My Portfolio Website - July 2024, All Rights Reserved to &reg; Jaleena Maria</p>
+            <div class="icon uparrow">
+                <a href="#container"> <i class="fa-solid fa-angle-up brands"></i></a>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+
+</body>
+<!-- aos animation js script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+
+</html>
